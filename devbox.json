@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "ripgrep@latest",
+    "bat@latest",
+    "starship@latest",
+    "atuin@latest",
+    "zoxide@latest",
+    "gh@latest",
+    "glab@latest",
+    "fzf@latest",
+    "jq@latest",
+    "yq@latest",
+    "cheat@latest",
+    "exa@latest",
+    "direnv@latest",
+    "fd@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
